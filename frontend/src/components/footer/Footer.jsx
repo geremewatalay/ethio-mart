@@ -15,11 +15,11 @@ export const Footer = () => {
                 <ShoppingCart size={24} />
               </div>
               <span className="text-2xl font-bold tracking-tight text-white italic">
-                Eko<span className="text-emerald-500">mart</span>
+                Ethio<span className="text-emerald-500">mart</span>
               </span>
             </NavLink>
             <p className="text-sm leading-relaxed text-gray-400">
-              Ekomart is your one-stop shop for everything organic and sustainable. We partner with local farmers to bring fresh produce directly to your doorstep.
+              Ethiomart is your one-stop shop for everything organic and sustainable. We partner with local farmers to bring fresh produce directly to your doorstep.
             </p>
             <div className="flex items-center gap-4 pt-2">
               {[FaFacebook, FaTwitter, FaInstagram, FaLinkedin].map((Icon, idx) => (
@@ -67,16 +67,16 @@ export const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="text-emerald-500 shrink-0" size={18} />
                 <span className="text-gray-400 leading-relaxed">
-                  123 Organic Street, Green Valley, CA 90210, USA
+                  4 King George VI St, Addis Ababa, Ethiopia
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="text-emerald-500 shrink-0" size={18} />
-                <span className="text-gray-400">+1 234 567 890</span>
+                <span className="text-gray-400">+251 905 027 162</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="text-emerald-500 shrink-0" size={18} />
-                <span className="text-gray-400">hello@ekomart.com</span>
+                <span className="text-gray-400">hello@ethiomart.com</span>
               </li>
             </ul>
             <div className="mt-8 p-6 bg-slate-900 rounded-2xl border border-slate-800">
@@ -90,7 +90,7 @@ export const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500 font-medium">
-          <p>© 2026 Ekomart. All Rights Reserved. Developed with ❤️</p>
+          <p>© 2026 Ethiomart. All Rights Reserved. Developed with Geremew Atalay</p>
           <div className="flex items-center gap-4">
             <span className="bg-gray-800 px-2 py-1 rounded">VISA</span>
             <span className="bg-gray-800 px-2 py-1 rounded">Mastercard</span>

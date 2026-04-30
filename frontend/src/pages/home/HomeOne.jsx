@@ -9,7 +9,7 @@ export const HomeOne = () => {
   return (
     <div className="pb-20">
       {/* Hero Section */}
-      <section className="relative bg-[#f4f7f2] overflow-hidden">
+      <section className="relative bg-emerald-50 overflow-hidden">
         <div className="container mx-auto px-4 py-12 lg:py-24 flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-1/2 space-y-8 z-10">
             <motion.div 
@@ -185,7 +185,7 @@ export const HomeOne = () => {
                 <button className="bg-white text-slate-900 px-6 py-3 rounded-xl font-bold text-sm hover:bg-slate-900 hover:text-white transition-all border border-gray-100">Shop Now</button>
               </div>
            </div>
-           <div className="relative overflow-hidden rounded-[40px] group bg-[#e7f3ee] p-12 flex flex-col justify-center min-h-[350px]">
+           <div className="relative overflow-hidden rounded-[40px] group bg-emerald-50 p-12 flex flex-col justify-center min-h-[350px]">
               <div className="absolute right-0 bottom-0 w-1/2 h-full">
                  <img src="https://images.unsplash.com/photo-1557089753-b4e04c3529db?q=80&w=400&auto=format&fit=crop" alt="Banner" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80" />
               </div>
