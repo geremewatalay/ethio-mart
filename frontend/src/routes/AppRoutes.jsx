@@ -5,7 +5,9 @@ import { MainLayout } from "../layouts/MainLayout";
 import { HomeOne } from "../pages/home/HomeOne";
 import { Shop } from "../pages/shop/Shop";
 import { ProductDetails } from "../pages/shop/ProductDetails";
-
+import { Checkout } from "../pages/checkout/Checkout";
+import { Cart } from "../pages/cart/Cart";
+import { OrderSuccess } from "../pages/order/OrderSuccess";
 // Placeholder pages (temporary)
 const Vendors = () => (
   <div className="p-20 text-center">
@@ -58,9 +60,13 @@ export const AppRoutes = () => {
         <Route path="blog" element={<Blog />} />
         <Route path="contact" element={<Contact />} />
 
+        {/* CART & CHECKOUT */}
+        <Route path="cart" element={<Cart />} />
+        <Route path="checkout" element={<Checkout />} />
+        <Route path="order-success" element={<OrderSuccess />} />
+
         {/* 404 PAGE */}
         <Route path="*" element={<NotFound />} />
-
       </Route>
     </Routes>
   );
