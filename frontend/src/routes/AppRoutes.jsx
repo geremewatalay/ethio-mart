@@ -1,4 +1,3 @@
-import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import { MainLayout } from "../layouts/MainLayout";
@@ -8,17 +7,12 @@ import { ProductDetails } from "../pages/shop/ProductDetails";
 import { Checkout } from "../pages/checkout/Checkout";
 import { Cart } from "../pages/cart/Cart";
 import { OrderSuccess } from "../pages/order/OrderSuccess";
-// Placeholder pages (temporary)
+import { Blog } from "../pages/blog/Blog";
+import { BlogPost } from "../pages/blog/BlogPost";
+
 const Vendors = () => (
   <div className="p-20 text-center">
     <h1 className="text-4xl font-black">Vendors Page</h1>
-    <p className="text-gray-500 mt-4">Coming Soon...</p>
-  </div>
-);
-
-const Blog = () => (
-  <div className="p-20 text-center">
-    <h1 className="text-4xl font-black">Blog Page</h1>
     <p className="text-gray-500 mt-4">Coming Soon...</p>
   </div>
 );
@@ -58,6 +52,7 @@ export const AppRoutes = () => {
         {/* STATIC PAGES */}
         <Route path="vendors" element={<Vendors />} />
         <Route path="blog" element={<Blog />} />
+        <Route path="blog/:id" element={<BlogPost />} />
         <Route path="contact" element={<Contact />} />
 
         {/* CART & CHECKOUT */}
